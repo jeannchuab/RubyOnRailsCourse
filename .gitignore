@@ -29,6 +29,7 @@
 !/tmp/cache/
 !/tmp/*
 !/tmp/storage/.keep
+!/rails-app/tmp/*
 
 /public/assets
 
