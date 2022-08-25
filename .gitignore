@@ -30,6 +30,7 @@
 !/tmp/*
 !/tmp/storage/.keep
 !/rails-app/tmp/*
+/rails-app/tmp/*
 
 /public/assets
 
