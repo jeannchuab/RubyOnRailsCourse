@@ -1,0 +1,141 @@
+Started GET "/" for 127.0.0.1 at 2022-08-16 15:41:56 -0300
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.2ms | Allocations: 657)
+Completed 200 OK in 26ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 5113)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-16 15:42:04 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 324)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms | Allocations: 1049)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-16 15:42:23 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 275)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-16 15:42:25 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 26)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 242)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-16 15:42:25 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jeannluiz/.rvm/gems/ruby-3.1.2/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 27)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 247)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-16 15:58:30 -0300
+  
+NoMethodError (undefined method `to' for #<ActionDispatch::Routing::Mapper:0x000000010ab50580 @set=#<ActionDispatch::Routing::RouteSet:0x000000010a60da00>, @draw_paths=[#<Pathname:/Users/jeannluiz/Projects/github/RubyOnRailsCourse/rails-app/config/routes>], @scope=#<ActionDispatch::Routing::Mapper::Scope:0x000000010ab50530 @hash={:path_names=>{:new=>"new", :edit=>"edit"}}, @parent=#<ActionDispatch::Routing::Mapper::Scope:0x000000010a79d6b8 @hash=nil, @parent=nil, @scope_level=nil>, @scope_level=nil>, @concerns={}>
+
+  root to "public#homepage"
+       ^^):
+  
+config/routes.rb:5:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2022-08-16 16:01:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/"):
+  
+Started GET "/" for 127.0.0.1 at 2022-08-16 16:04:42 -0300
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 1.6ms | Allocations: 353)
+  Rendered layout layouts/application.html.erb (Duration: 897.8ms | Allocations: 90658)
+Completed 200 OK in 910ms (Views: 901.7ms | ActiveRecord: 0.0ms | Allocations: 94040)
+
+
+Started GET "/" for 127.0.0.1 at 2022-08-18 14:38:09 -0300
+Started GET "/" for 127.0.0.1 at 2022-08-18 14:38:09 -0300
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#homepage as HTML
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 1.6ms | Allocations: 390)
+  Rendered public/homepage.html.erb within layouts/application (Duration: 1.1ms | Allocations: 371)
+  Rendered layout layouts/application.html.erb (Duration: 101.1ms | Allocations: 66820)
+  Rendered layout layouts/application.html.erb (Duration: 101.3ms | Allocations: 67024)
+Completed 200 OK in 114ms (Views: 105.9ms | ActiveRecord: 0.0ms | Allocations: 70958)
+
+
+Completed 200 OK in 114ms (Views: 105.8ms | ActiveRecord: 0.0ms | Allocations: 70806)
+
+
+Started GET "/" for ::1 at 2022-08-25 12:33:50 -0300
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 1.0ms | Allocations: 352)
+  Rendered layout layouts/application.html.erb (Duration: 55.1ms | Allocations: 36246)
+Completed 200 OK in 68ms (Views: 59.3ms | ActiveRecord: 0.0ms | Allocations: 39629)
+
+
+Started GET "/" for ::1 at 2022-08-25 12:34:17 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2613)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2941)
+
+
+Started GET "/" for ::1 at 2022-08-25 12:34:23 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2484)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2752)
+
+
+Started GET "/" for ::1 at 2022-08-25 12:34:24 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2486)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2752)
+
+
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (182.3ms)[0m  [1m[35mCREATE DATABASE "db/rails-blog-development" ENCODING = 'utf8'[0m
+  [1m[35m (90.3ms)[0m  [1m[35mCREATE DATABASE "db/rails-blog-test" ENCODING = 'utf8'[0m
+Started GET "/" for ::1 at 2022-08-25 12:49:06 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 1.2ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 52.0ms | Allocations: 36411)
+Completed 200 OK in 62ms (Views: 55.2ms | ActiveRecord: 0.0ms | Allocations: 39795)
+
+
+  [1m[35m (26.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1481805814576503045)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-08-25 16:01:47.479636"], ["updated_at", "2022-08-25 16:01:47.479636"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1481805814576503045)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
