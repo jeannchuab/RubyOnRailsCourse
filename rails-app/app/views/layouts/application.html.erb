@@ -10,7 +10,14 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body>    
+    <% if flash[:success] %>
+      <p><%= flash[:success] %></p>
+    <% end %>
+
     <%= yield %>
+
+    <%# <%= @name unless @name.present? %>
+    <%= @name if @name.present? %>    
   </body>
 </html>

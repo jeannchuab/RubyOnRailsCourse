@@ -595,3 +595,1884 @@ Processing by WelcomeController#home as HTML
 Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 3774)
 
 
+Started GET "/welcome/features" for ::1 at 2022-08-25 18:53:57 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 1.0ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 32.6ms | Allocations: 14670)
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.0ms | Allocations: 15653)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-25 18:55:24 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 2.1ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 55.7ms | Allocations: 36255)
+Completed 200 OK in 66ms (Views: 59.2ms | ActiveRecord: 0.0ms | Allocations: 39663)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-25 18:55:26 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2665)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2998)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-25 18:57:10 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 1.2ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 14659)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.0ms | Allocations: 15642)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-25 18:57:26 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 1.5ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 66.9ms | Allocations: 35848)
+Completed 200 OK in 79ms (Views: 70.6ms | ActiveRecord: 0.0ms | Allocations: 39257)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-25 18:57:32 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 160)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2812)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3225)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-25 19:04:16 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 45.3ms | Allocations: 14318)
+Completed 200 OK in 48ms (Views: 47.1ms | Allocations: 14966)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-25 19:04:24 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 14270)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 14914)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-25 19:06:56 -0300
+Processing by WelcomeController#home as HTML
+This is a info message
+This is a debug message
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 14297)
+Completed 200 OK in 20ms (Views: 19.1ms | Allocations: 14975)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-25 19:08:11 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Hope you are having a great day
+This is a debug message: Hope you are having a great day
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 14354)
+Completed 200 OK in 22ms (Views: 21.0ms | Allocations: 15030)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-25 19:08:20 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 14291)
+Completed 200 OK in 17ms (Views: 16.7ms | Allocations: 14963)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-25 19:09:56 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+Completed 500 Internal Server Error in 7ms (Allocations: 1486)
+
+
+  
+NoMethodError (undefined method `errors' for #<ActiveSupport::Logger:0x000000010c2a40d8 @level=0, @progname=nil, @default_formatter=#<Logger::Formatter:0x000000010c2a6928 @datetime_format=nil>, @formatter=#<ActiveSupport::Logger::SimpleFormatter:0x0000000107705078 @datetime_format=nil, @thread_key="activesupport_tagged_logging_tags:14020">, @logdev=#<Logger::LogDevice:0x000000010c2a67e8 @shift_period_suffix="%Y%m%d", @shift_size=1048576, @shift_age=0, @filename="/Users/jeannluiz/Projects/github/RubyOnRailsCourse/rails-app/log/development.log", @dev=#<File:/Users/jeannluiz/Projects/github/RubyOnRailsCourse/rails-app/log/development.log>, @binmode=false, @mon_data=#<Monitor:0x000000010c2a6798>, @mon_data_owner_object_id=4120>>
+
+    Rails.logger.errors "This is a debug message: #{ @message }"
+                ^^^^^^^
+Did you mean?  error
+               error!
+               error?):
+  
+app/controllers/welcome_controller.rb:14:in `home'
+Started GET "/welcome/home" for ::1 at 2022-08-25 19:10:05 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 23.8ms | Allocations: 14341)
+Completed 200 OK in 26ms (Views: 25.8ms | Allocations: 15014)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:14:33 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 1.3ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 62.6ms | Allocations: 36013)
+Completed 200 OK in 77ms (Views: 67.3ms | ActiveRecord: 0.0ms | Allocations: 39424)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:14:45 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 41.7ms | Allocations: 14271)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms | Allocations: 14932)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:14:59 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 14318)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 14974)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:15:01 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2501)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2791)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:15:55 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 2.7ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 56.5ms | Allocations: 35555)
+Completed 200 OK in 71ms (Views: 62.7ms | ActiveRecord: 0.0ms | Allocations: 38966)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:16:16 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 14235)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms | Allocations: 14895)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:16:20 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2505)
+Completed 200 OK in 20ms (Views: 19.8ms | ActiveRecord: 0.0ms | Allocations: 2796)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:16:28 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 7.8ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 2895)
+Completed 200 OK in 17ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 3678)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:16:38 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2513)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2798)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:16:42 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2489)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2755)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:16:43 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2486)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2752)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:16:46 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2493)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2765)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:16:46 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2486)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2752)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:28:23 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2509)
+Completed 200 OK in 7ms (Views: 5.5ms | Allocations: 2772)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:28:28 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2481)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 2744)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:28:29 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2501)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 2764)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:28:29 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2504)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 2767)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:28:30 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2495)
+Completed 200 OK in 5ms (Views: 5.0ms | Allocations: 2758)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:28:30 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2486)
+Completed 200 OK in 8ms (Views: 6.8ms | Allocations: 2749)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:28:44 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 82.4ms | Allocations: 14319)
+Completed 200 OK in 84ms (Views: 83.6ms | Allocations: 14963)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:28:46 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2526)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 2807)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:28:59 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 14296)
+Completed 200 OK in 18ms (Views: 17.2ms | Allocations: 14940)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:29:00 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2492)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2772)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:32:57 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 1.8ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 62.9ms | Allocations: 36157)
+Completed 200 OK in 73ms (Views: 66.3ms | ActiveRecord: 0.0ms | Allocations: 39568)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:32:58 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2656)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 2989)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:00 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2487)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2757)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:00 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2499)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2769)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:00 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2490)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2760)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:01 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2477)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2743)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:01 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2495)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 2761)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:01 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2477)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2743)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:01 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2483)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2749)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:01 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2492)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 2758)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:01 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 2513)
+Completed 200 OK in 23ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 2780)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:02 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2483)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2749)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:02 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2498)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2764)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:02 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2492)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2758)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:33:02 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2498)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 2764)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:21 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2303)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 2569)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:22 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2379)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2645)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:23 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2372)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2638)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:23 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2390)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2656)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:24 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2372)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2639)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:32 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2288)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2554)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:33 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2387)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 2653)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:33 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2384)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2650)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:33 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2369)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 2635)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:34 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2377)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 2644)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:34 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2378)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2644)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:35:39 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2387)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2653)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:36:38 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 14211)
+Completed 200 OK in 19ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 14867)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:36:46 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 14123)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 14780)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:36:54 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2384)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 2669)
+
+
+Started GET "/welcome" for ::1 at 2022-08-26 11:37:09 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:37:14 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.5ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2813)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 3567)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:37:31 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Hope you are having a great day
+This is a debug message: Hope you are having a great day
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 166)
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 14351)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms | Allocations: 15110)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:37:44 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Hope you are having a great day
+This is a debug message: Hope you are having a great day
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2389)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2702)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:38:04 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 22.4ms | Allocations: 14257)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 14942)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:38:05 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2386)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2699)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:38:05 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2383)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2676)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:38:06 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2371)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 2664)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:38:06 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2383)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2676)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:38:07 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2386)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms | Allocations: 2679)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:38:07 -0300
+Processing by WelcomeController#home as HTML
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2388)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 2681)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:38:13 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 377)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:38:13 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 14206)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 14856)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:38:22 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 14230)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 14887)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:38:25 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2366)
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 2650)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:39:11 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 14168)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 14824)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:39:36 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2390)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2674)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:40:37 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2382)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 2649)
+
+
+Started GET "/welcome" for ::1 at 2022-08-26 11:40:42 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:40:46 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/welcome/features
+This is a info message: 
+This is a debug message: 
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 293)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:40:46 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2699)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3297)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:41:27 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/welcome/features
+This is a info message: 
+This is a debug message: 
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 291)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:41:28 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 14233)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 14833)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:41:44 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+This is a info message: 
+This is a debug message: 
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 296)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:41:44 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 14137)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 14788)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:41:55 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2386)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 2670)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:42:30 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2386)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 2652)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:42:31 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2373)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 2639)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:42:36 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+This is a info message: 
+This is a debug message: 
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 207)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:42:36 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2384)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2650)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:42:41 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2399)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2665)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:42:51 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 33.7ms | Allocations: 14223)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms | Allocations: 14880)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:42:54 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/welcome/features
+This is a info message: 
+This is a debug message: 
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 286)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:42:54 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2684)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 3283)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:43:02 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/welcome/features
+This is a info message: 
+This is a debug message: 
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 205)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:43:02 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2368)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2648)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:44:10 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/welcome/features
+This is a info message: Hope you are having a great day
+This is a debug message: Hope you are having a great day
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 288)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:44:10 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 14217)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 14816)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:44:28 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/welcome/features
+This is a info message: Hope you are having a great day
+This is a debug message: Hope you are having a great day
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 202)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:44:28 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2394)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 2674)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:53:17 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.8ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1416)
+Completed 500 Internal Server Error in 4ms (Allocations: 2362)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsApp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <%= if flash [:success]  %>
+      <p> <%= flash [:success] %> <p>
+    <%= end %>
+
+    <%= yield %>
+  </body>
+</html>
+
+):
+1:    <!DOCTYPE html>
+2:    <html>
+3:      <head>
+4:        <title>RailsApp</title>
+5:        <meta name="viewport" content="width=device-width,initial-scale=1">
+6:        <%= csrf_meta_tags %>
+7:        <%= csp_meta_tag %>
+8:    
+9:        <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+10:        <%= javascript_importmap_tags %>
+11:      </head>
+12:    
+13:      <body>
+14:        <%= if flash [:success]  %>
+15:          <p> <%= flash [:success] %> <p>
+16:        <%= end %>
+17:    
+18:        <%= yield %>
+19:      </body>
+20:    </html>
+  
+app/views/layouts/application.html.erb:14: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/layouts/application.html.erb:16: syntax error, unexpected `end'
+app/views/layouts/application.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:14: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/layouts/application.html.erb:16: syntax error, unexpected `end'
+app/views/layouts/application.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:14: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/layouts/application.html.erb:16: syntax error, unexpected `end'
+app/views/layouts/application.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:14: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/layouts/application.html.erb:16: syntax error, unexpected `end'
+app/views/layouts/application.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:14: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/layouts/application.html.erb:16: syntax error, unexpected `end'
+app/views/layouts/application.html.erb:23: syntax error, unexpected `end', expecting ')'
+app/views/layouts/application.html.erb:14: syntax error, unexpected ')', expecting `then' or ';' or '\n'
+app/views/layouts/application.html.erb:16: syntax error, unexpected `end'
+app/views/layouts/application.html.erb:23: syntax error, unexpected `end', expecting ')'
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:53:56 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.7ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 23.2ms | Allocations: 15529)
+Completed 500 Internal Server Error in 26ms (Allocations: 16339)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    11:   </head>
+    12: 
+    13:   <body>
+    14:     <% if flash [:success]  %>
+    15:       <p><%= flash [:success] %><p>
+    16:     <% end %>
+    17: 
+  
+app/views/layouts/application.html.erb:14
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:54:15 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 3073)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 3919)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:54:27 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2397)
+Completed 200 OK in 5ms (Views: 4.6ms | Allocations: 2678)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:54:47 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/welcome/features
+This is a info message: Hope you are having a great day
+This is a debug message: Hope you are having a great day
+Completed 302 Found in 6ms (Allocations: 218)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:54:47 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2391)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 2654)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 11:55:12 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 14214)
+Completed 200 OK in 27ms (Views: 25.9ms | Allocations: 14855)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:55:16 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+This is a info message: Welcome to my homepage
+This is a debug message: Welcome to my homepage
+Completed 302 Found in 1ms (Allocations: 424)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:55:16 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2851)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 3614)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:55:19 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2394)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 2674)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:55:21 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2379)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 2642)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:57:01 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2397)
+Completed 200 OK in 5ms (Views: 4.9ms | Allocations: 2660)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:57:46 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 14239)
+Completed 200 OK in 18ms (Views: 17.3ms | Allocations: 14883)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:57:48 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2388)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2668)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:57:48 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2385)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 2648)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:57:49 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2415)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 2678)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:57:49 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2388)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2651)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:57:49 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2412)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 2675)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:57:50 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2409)
+Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 2673)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:57:50 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2406)
+Completed 200 OK in 5ms (Views: 4.9ms | Allocations: 2669)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:57:55 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 170)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2844)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 3551)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 11:58:17 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (Allocations: 262)
+
+
+Started GET "/" for ::1 at 2022-08-26 11:58:17 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 14242)
+Completed 200 OK in 18ms (Views: 17.8ms | Allocations: 14880)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:00:14 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 14249)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 14893)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:01:22 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.9ms | Allocations: 153)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 3050)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 3913)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:03:53 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3057)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 3899)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:04:35 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2397)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2678)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:05:07 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3066)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 3891)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:05:08 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2406)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 2687)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:05:28 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2400)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 2664)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:06:41 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2397)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 2660)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:06:59 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.7ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3057)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 3882)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:07:00 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2406)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 2687)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:07:05 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2406)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2669)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:04 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 14247)
+Completed 200 OK in 23ms (Views: 22.1ms | Allocations: 14891)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:06 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2396)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 2677)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:06 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2382)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 2645)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:07 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2382)
+Completed 200 OK in 5ms (Views: 4.1ms | Allocations: 2645)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:07 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2394)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 2657)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:07 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2401)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 2664)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:07 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2393)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2656)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:07 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2394)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 2657)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:08 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2391)
+Completed 200 OK in 5ms (Views: 4.1ms | Allocations: 2654)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:08:27 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 33.9ms | Allocations: 2397)
+Completed 200 OK in 44ms (Views: 43.5ms | Allocations: 2660)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 12:09:02 -0300
+  
+SyntaxError (/Users/jeannluiz/Projects/github/RubyOnRailsCourse/rails-app/app/controllers/welcome_controller.rb:4: syntax error, unexpected ':', expecting `end'
+    flash: { success: "Page redirect wa...
+         ^
+):
+  
+app/controllers/welcome_controller.rb:4: syntax error, unexpected ':', expecting `end'
+app/controllers/welcome_controller.rb:4: syntax error, unexpected ':', expecting `end'
+app/controllers/welcome_controller.rb:4: syntax error, unexpected ':', expecting `end'
+Started GET "/welcome/home" for ::1 at 2022-08-26 12:09:17 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 500 Internal Server Error in 14ms (Allocations: 3700)
+
+
+  
+NameError (undefined local variable or method `blajdlaskjdlksaj' for #<WelcomeController:0x0000000005d908>
+
+    blajdlaskjdlksaj
+    ^^^^^^^^^^^^^^^^):
+  
+app/controllers/welcome_controller.rb:5:in `home'
+Started GET "/welcome/home" for ::1 at 2022-08-26 12:09:25 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (Allocations: 492)
+
+
+Started GET "/" for ::1 at 2022-08-26 12:09:26 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 14269)
+Completed 200 OK in 24ms (Views: 23.2ms | Allocations: 14906)
+
+
+Started GET "/" for ::1 at 2022-08-26 15:59:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 1.3ms | Allocations: 354)
+  Rendered layout layouts/application.html.erb (Duration: 74.7ms | Allocations: 36209)
+Completed 200 OK in 85ms (Views: 78.6ms | ActiveRecord: 0.0ms | Allocations: 39620)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:00:31 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 588)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:00:31 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 2553)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms | Allocations: 2868)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:01:26 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 167)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 14163)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 15176)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:01:39 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 507)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:01:39 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 14222)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 14876)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:01:49 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 355)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:01:49 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2414)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2698)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:02:05 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 62.3ms | Allocations: 14242)
+Completed 200 OK in 66ms (Views: 63.5ms | ActiveRecord: 0.0ms | Allocations: 14899)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:11 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2470)
+Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 3342)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:13 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2228)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2728)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:13 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2221)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2686)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:13 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2227)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2674)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:14 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2221)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 2701)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:14 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2221)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2681)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:14 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2221)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 2671)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:14 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2221)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2695)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:15 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2221)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2671)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:15 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2221)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 2683)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:15 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2221)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2680)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:15 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2221)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 2686)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:02:15 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2225)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 2676)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:03:08 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2221)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2680)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:03:12 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2221)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 2671)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:04:14 -0300
+Processing by WelcomeController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2847)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 3882)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:04:42 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 523)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:04:42 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.9ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 31.1ms | Allocations: 14644)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 0.0ms | Allocations: 15620)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:04:49 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 14152)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 14809)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:07:16 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 489)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:07:16 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 18.4ms | Allocations: 14179)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 14830)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:07:26 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 14239)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms | Allocations: 14897)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:07:28 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2400)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2684)
+
+
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:07:33 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms | Allocations: 505)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:07:33 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2557)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2867)
+
+
+Started GET "/welcome/contact" for ::1 at 2022-08-26 16:19:06 -0300
+  
+SyntaxError (/Users/jeannluiz/Projects/github/RubyOnRailsCourse/rails-app/app/controllers/welcome_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  before_action : set_values
+                ^
+):
+  
+app/controllers/welcome_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/welcome_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/welcome_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:19:50 -0300
+  
+SyntaxError (/Users/jeannluiz/Projects/github/RubyOnRailsCourse/rails-app/app/controllers/welcome_controller.rb:2: syntax error, unexpected ':', expecting `end'
+  before_action : set_values
+                ^
+):
+  
+app/controllers/welcome_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/welcome_controller.rb:2: syntax error, unexpected ':', expecting `end'
+app/controllers/welcome_controller.rb:2: syntax error, unexpected ':', expecting `end'
+Started GET "/welcome/home" for ::1 at 2022-08-26 16:20:17 -0300
+Processing by WelcomeController#home as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (Allocations: 560)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:20:18 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 1.1ms | Allocations: 148)
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 14659)
+Completed 200 OK in 39ms (Views: 37.5ms | Allocations: 15623)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:20:27 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3073)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 3914)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:25:09 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.1ms | Allocations: 26)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 14211)
+Completed 200 OK in 16ms (Views: 15.1ms | Allocations: 14855)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:25:10 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2394)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2674)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:25:11 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2412)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2675)
+
+
+Started GET "/" for ::1 at 2022-08-26 16:25:22 -0300
+Processing by PublicController#homepage as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering public/homepage.html.erb within layouts/application
+  Rendered public/homepage.html.erb within layouts/application (Duration: 0.4ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3090)
+Completed 200 OK in 7ms (Views: 5.7ms | Allocations: 3936)
+
+
+Started GET "/welcome/features" for ::1 at 2022-08-26 16:25:26 -0300
+Processing by WelcomeController#features as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/features.html.erb within layouts/application
+  Rendered welcome/features.html.erb within layouts/application (Duration: 11.6ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 2831)
+Completed 200 OK in 21ms (Views: 19.2ms | Allocations: 3666)
+
+
+Started GET "/welcome/contact" for ::1 at 2022-08-26 16:25:33 -0300
+Processing by WelcomeController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (Duration: 2.2ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2499)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 2854)
+
+
+Started GET "/welcome/contact" for ::1 at 2022-08-26 16:25:45 -0300
+Processing by WelcomeController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (Duration: 0.4ms | Allocations: 156)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 14660)
+Completed 200 OK in 16ms (Views: 15.4ms | Allocations: 15690)
+
+
+Started GET "/welcome/contact" for ::1 at 2022-08-26 16:25:46 -0300
+Processing by WelcomeController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/contact.html.erb within layouts/application
+  Rendered welcome/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2402)
+Completed 200 OK in 5ms (Views: 3.8ms | Allocations: 2687)
+
+
