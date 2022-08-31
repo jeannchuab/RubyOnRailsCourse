@@ -8,16 +8,27 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
   </head>
 
   <body>    
-    <% if flash[:success] %>
-      <p><%= flash[:success] %></p>
-    <% end %>
+    <div class="container">
 
-    <%= yield %>
+      <div class="row">
+        <div class="col">
+          <%= render partial: "layouts/menu" %>
+        </div>
+      </div>
 
-    <%# <%= @name unless @name.present? %>
-    <%= @name if @name.present? %>    
+      <div class="row">
+        <div class="col">
+          <%= yield %>
+        </div>
+      </div>
+        
+    </div>
+
+    <%= render partial: "layouts/footer"%>
   </body>
 </html>
