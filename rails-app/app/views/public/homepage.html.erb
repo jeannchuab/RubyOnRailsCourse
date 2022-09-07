@@ -1,6 +1,25 @@
-<h2>Latest Posts</h2>
+<% content_for :page_title, "Home" %>
 
-<% @posts.each do |post| %>
-  <h3><%= link_to post.title, post_path(post) %></h3>  
-  <p><%= post.summary %></p>
-<% end %>
+<div class="row">
+  <div class"col-8">
+    <p class="h4">Latest Posts</p>
+
+    <% @posts.each do |post| %> 
+      <%= render partial: "posts/post", locals: { paramPost: post } %>
+    <% end %>
+  </div>
+
+  <div class"col-">
+    <p class="h4">About</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+
+</div>
+
+
+
+
+
+<%# content_for :scripts do %>
+  <%# This will be displayed at the bottom of body tag %>
+<%# end %>
